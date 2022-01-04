@@ -16,8 +16,9 @@
 [<img align="left" alt="Java" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" />]
 
 ## The Problem Statement
-
-- Topic – Online Healthcare & Logistics Management 
+### Topic
+- Online Healthcare & Logistics Management 
+### Objective
 - Objective: A logistics and healthcare specialists tracking website that allows a customer to search 
 for  all  the  details  like  schedule  meeting  with  a  specialist,  date,  time  and  location,  Specialists 
 assigned  for  a  booking  etc.  It  also  allows  customers  to  check  the  logistics  used  for  scheduled 
