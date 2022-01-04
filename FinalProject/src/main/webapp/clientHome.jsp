@@ -25,19 +25,36 @@ if(session.getAttribute("Name")==null)
 }
 
 %>
-	<h4>Hello <%= session.getAttribute("Name") %></h4>
-	<h2>Here is a list of problems</h2>
+	
+	
 	
 	<div class="container">
+	<h2 >Here is a list of problems</h2>
+	<hr class="bolderr" size="10">
+	<hr>
 		<div class="row">
-			<div class="col-lg-3 one"><a href="problem?problems=Gas&bookslots=false">Gastrology</a></div>
-			<div class="col-lg-3 two"><a href="problem?problems=dental&bookslots=false">Dental care</a></div>
-			<div class="col-lg-3 one"><a href="problem?problems=ent&bookslots=false">Ears Nose Throat</a></div>
+			<div class="col-lg-3 one"> 
+				
+			<img alt="" class="picicons" src="images/stomach.png"> <br>
+			 <a href="problem?problems=Gas&bookslots=false">Gastrology</a></div>
+			<div class="col-lg-3 two">
+			<img alt="" class="picicons" src="images/teeth2.png"> <br>
+			<a href="problem?problems=dental&bookslots=false">Dental care</a></div>
+			<div class="col-lg-3 one">
+			<img alt="" class="picicons" src="images/ears2.png"> <br>
+			<a href="problem?problems=ent&bookslots=false">Ears Nose Throat</a></div>
 		</div>
 		<div class="row">
-			<div class="col-lg-3 two" ><a href="problem?problems=heart&bookslots=false">Cardiology</a></div>
-			<div class="col-lg-3 one"><a href="problem?problems=liver&bookslots=false">Liver and Kidney</a></div>
-			<div class="col-lg-3 two"><a href="problem?problems=brain&bookslots=false">Brain</a></div>
+			
+			<div class="col-lg-3 two" >
+			<img alt="" class="picicons" src="images/heart.png"> <br>
+			<a href="problem?problems=heart&bookslots=false">Cardiology</a></div>
+			<div class="col-lg-3 one">
+			<img alt="" class="picicons" src="images/liver.png"> <br>
+			<a href="problem?problems=liver&bookslots=false">Liver and Kidney</a></div>
+			<div class="col-lg-3 two">
+			<img alt="" class="picicons" src="images/brain.png"> <br>
+			<a href="problem?problems=brain&bookslots=false">Brain</a></div>
 		</div>
 		<div class="row">
 			<div class="col-lg-3 one"><a href="problem?problems=physio&bookslots=false">Physiology</a></div>
@@ -48,31 +65,69 @@ if(session.getAttribute("Name")==null)
 	</div>
 		
 
-	<form action="userLogout">
-	<button type="submit">logout</button>
+	<form class="logout" action="userLogout">
+	<button class="btn btn-danger" type="submit">logout</button>
 	</form>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 <style>
 
+body{
+background-color: #F8E7E4;
+}
+.logout
+{
+margin: 50px 0;
+height: 3rem;
+display:flex;
+justify-content: center;
+}
+.bolderr
+{
+position: relative;
+top: 20px;
+width:22.5rem;
+background-color: red;
+color:red;
+z-index: 10;
+}
+.picicons
+{
+width:20%;
+
+}
 .col-lg-3
 {
 text-align: center;
 padding-top: 6rem;
 padding-bottom: 6rem;
+width:26vw;
+border-radius: 10px;
+}
 
-border: 2px solid;
+.col-lg-3 a
+{
+text-decoration: none;
+font-size: 1.4rem;
+
 }
+
 .one{
-background:red;
+background:#FFF9F8;
 }
-.one:hover{
-background:gold;
+.one:hover  {
+background:#FBC1BC;
+transition:0.4s;
+}
+.two:hover
+{
+transition:0.3s;
+background-color: #FBC1BC;
 }
 .two
 {
-background: green;
+background: #FFF9F8;
 }
 .row
 {

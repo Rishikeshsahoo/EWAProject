@@ -9,7 +9,8 @@
 <body>
 <div class="navbar">
 	
-	<img class="logoimg" alt="" src="images/logo.png">
+	<a href="index.jsp" id="iconimgg"><img  class="logoimg" alt="" src="images/logo.png"></a>
+	
 	<nav>
 		<ul>
 			<li> <a href="index.jsp">Home</a> </li>
@@ -27,7 +28,8 @@
 <style>
 .logoimg
 {
-width:4.5%;
+margin-left:20px;
+width:14.5%;
 cursor: pointer;
 }
 nav
@@ -45,6 +47,10 @@ text-decoration: none;
 color: #2F3A8F;
 font-weight: bold;
 }
+#iconimgg{
+display: inline;
+}
+
 
 </style>
 

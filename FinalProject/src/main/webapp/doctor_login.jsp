@@ -34,7 +34,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4">
-					<h3 class="title">Client login </h3>
+					<h3 class="title">Doctor login </h3>
 				<%
 		if(session.getAttribute("DloginFail")!=null && session.getAttribute("DloginFail").toString().equals("true"))
 		{
@@ -48,7 +48,7 @@
 			<%
 			session.setAttribute("DloginFail", null);
 			session.setAttribute("DloginMessage", null);
-			//#6EFFCB
+			
 			
 		}
 	%>
@@ -56,14 +56,14 @@
 						
 						<div class="mb-3">
 					    	<label for="exampleInputEmail1" class="form-label">Username::</label>
-					    	<input type="text" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+					    	<input type="text" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
 					    
 					  	</div>
 						<br>
 						
 						<div class="mb-3">
 					    	<label for="exampleInputPassword1" class="form-label">Password::</label>
-					    	<input type="password" name="password" class="form-control" id="exampleInputPassword1">
+					    	<input type="password" name="password" class="form-control" id="exampleInputPassword1" required>
 					  	</div>
 						<div class="mb-3 form-check">
 					    <input type="checkbox" class="form-check-input" id="exampleCheck1">
