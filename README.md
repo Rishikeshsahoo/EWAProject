@@ -15,6 +15,17 @@
 [<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />]
 [<img align="left" alt="Java" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" />]
 
+
+## What our website does
+
+- 🌱 It helpes Patients to book appointments of Doctors of their choice
+- 👯 It allows doctors to have a check and update their number of slots
+- 🥅 All the data is stored in SQL database and tables
+- 🔭 It has seprate login mechanism for Client and Doctors!
+- ⚡ The user interface is very much user friendly and beautiful
+
+
+
 ## HERE IS WHAT OUT WEBSITE LOOKS LIKE 👀
 
 ### HOME PAGE
